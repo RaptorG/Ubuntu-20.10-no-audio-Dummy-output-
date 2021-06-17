@@ -4,4 +4,5 @@ On Ubuntu 20.10 minimal install. I noticed no-audio and output was set to Dummy 
 Fortunately the fix was straight forward:
 
 $ sudo apt-get install --reinstall alsa-base pulseaudio
+
 $ sudo alsa force-reload
